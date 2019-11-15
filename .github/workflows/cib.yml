@@ -19,7 +19,7 @@ jobs:
 
     - name: seriesci bot
       run: |
-        curl -L https://github.com/seriesci/cib/releases/download/v0.0.3/cib_0.0.3_Linux_x86_64.tar.gz | tar -xz
+        curl -L https://github.com/seriesci/cib/releases/download/v0.0.4/cib_0.0.4_Linux_x86_64.tar.gz | tar -xz
         ./cib
       env:
         SERIESCI_TOKEN: ${{ secrets.SERIESCI_TOKEN }}
